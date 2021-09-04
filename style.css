@@ -279,3 +279,7 @@ font-family: 'Playfair Display', serif;
     border-top:solid 10px #d9b1b3;
 
 }
+
+.subscribe form [input type='text']{
+    padding:0 50px 0 0;
+}
