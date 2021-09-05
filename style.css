@@ -141,9 +141,7 @@ header{
 .coming-soon .coming-soon-heading,
 .coming-soon .coming-soon-text,
 .coming-soon .coming-soon-form{
-    flex-grow:1;
-    flex-shrink: 0;
-    flex-basis: 100%;
+    
 }
 
 .coming-soon .coming-soon-heading {
@@ -157,6 +155,8 @@ header{
 
 .coming-soon .coming-soon-form{
   justify-content: center;
+  display: flex;
+  flex-direction: row;
 }
 
 .coming-soon-form .row-100{
@@ -268,20 +268,63 @@ font-family: 'Playfair Display', serif;
 
 .subscribe{
     display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
 .subscribe-form{
     display: flex;
-    padding: 30px 0 10px 200px;
+    padding: 30px 0 10px 50px;
 }
 
-.subscribe-text h1{
-    margin: 50px 0 50px 300px;
+.subscribe-text .line{
     border-top:solid 10px #d9b1b3;
-
+    width: 80vh;
+    margin: 150px 20px 5px 50px;
+}
+.subscribe-text h1{
+    margin: 5px 30vh 50px 30vh;
+    justify-content: center;
 }
 
 .form1,
 .form2{
     padding: 20px;
     height: 30px;
+}
+
+.subscribe-form .form1 input[type=text],
+.subscribe-form .form2 input[type=text]{
+    width: 250px;
+    padding: 12px 20px;
+}
+
+.button{
+    border-radius: 100px;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    margin-left: 42vh;
+}
+
+.button-text{
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 15vh;
+    margin-right: 20vh;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.icons{
+    margin-left: 42vh;
+    margin-top: 25px;
+}
+
+.facebook,
+.twitter,
+.instagram{
+    width: 25px;
+    height: 25px;
 }
