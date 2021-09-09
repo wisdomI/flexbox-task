@@ -14,7 +14,7 @@ body{
     width: 80%;
     display: flex;
     flex-direction:row ;
-    height: 40vh;
+    height: 25vh;
 
 }
 
@@ -78,6 +78,7 @@ header{
     font-style: italic;
     font-size: 1.6rem;
     margin-bottom: 15px;
+    line-height: 3rem;
 }
 
 .anon span{
@@ -88,7 +89,7 @@ header{
 .anon-section p{
     font-size: 1rem;
     width: 50%;
-    line-height: 1rem;
+    line-height: 2rem;
     
 }
 
@@ -131,49 +132,75 @@ header{
     background-color: #d9b1b3;
     padding: 50px 0;
     color: white;
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+
 
 .coming-soon .row-column-100{
     justify-content: center;
 }
 
-.coming-soon .coming-soon-heading,
-.coming-soon .coming-soon-text,
-.coming-soon .coming-soon-form{
-    
-}
-
-.coming-soon .coming-soon-heading {
-
-    
-}
-
-.coming-soon .coming-soon-text{
-   
-}
 
 .coming-soon .coming-soon-form{
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    justify-content: center;
 }
 
-.coming-soon-form .row-100{
-    
-
+.coming-soon-form,
+.coming-soon-heading,
+.coming-soon-text{
+    display: flex;
+    justify-content: center;
+    font-family: 'playfair display' , serif;;
 }
 
-.coming-soon-form .input-container{
-
-
+.coming-soon-heading {
+    font-family: 'playfair display' , serif;
+    font-style: italic;
+    font-size: 70px;
+    margin-top: 0px;
 }
 
-.input-container .text-input,
-.input-container .form-button{
-
-    
+.coming-soon .row-100{
+    display: flex;
+    flex-direction: row;
 }
+
+.coming-soon-text{
+    font-family: 'playfair display' , serif;
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.row-100 .input-container input[type=text]{
+    width: 250px;
+    height: 40px;
+    margin: 12px 0 20px 20px;
+    border-radius: 100px;
+    border: none;
+}
+
+.row-100 .input-container :placeholder-shown{
+    padding-left: 10px;
+}
+
+
+
+.button1 button{
+    height: 40px; 
+    background-color: black;   
+    color: white;
+    margin-left: 15px;
+    margin-top: 12px;
+    border-radius: 100px;
+    border: none;
+    width: 150px;
+}
+
+
 
 .pic-textsection{
     display: flex;
@@ -190,22 +217,23 @@ header{
 }
 
 .signature{
-    padding: 50px 0 0 10px;
-    font-family: 'Alex Brush' cursive;
-    color: rgb(248, 97, 122);
-    font-style: italic;
+    padding: 30px 0 0 0;
 }
 
 .spring{
-font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif;
+
 }
+
 .spring-collection-section{
     background-color: #d9b1b3;
 }
 
 .spring-collection-section h1{
-    padding: 10vh 65vh 2vh 70vh;
+    padding: 5vh 50vh 5vh 55vh;
     color: white;
+    font-style: italic;
+    font-size: 5rem;
 }
 
 .spring-images{
@@ -251,13 +279,14 @@ font-family: 'Playfair Display', serif;
 
 .sample-product{
     font-size: x-large;
-    padding: 0 0 20px 0;
+    padding: 20px 0 20px 0;
 }
 
 .cost{
     padding: 0 0 5px 0;
     font-weight: bold;
 }
+
 .shoe-text button{
     border-radius: 100px;
     width: 200px;
@@ -270,20 +299,24 @@ font-family: 'Playfair Display', serif;
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
+    font-style: italic;
 }
 .subscribe-form{
     display: flex;
-    padding: 30px 0 10px 50px;
+    padding: 10px 0 10px 50px;
 }
 
 .subscribe-text .line{
     border-top:solid 10px #d9b1b3;
-    width: 80vh;
+    width: 90vh;
     margin: 150px 20px 5px 50px;
 }
+
 .subscribe-text h1{
-    margin: 5px 30vh 50px 30vh;
+    display: flex;
     justify-content: center;
+    font-size: 5rem;
+    margin-bottom: 10vh;
 }
 
 .form1,
@@ -299,13 +332,14 @@ font-family: 'Playfair Display', serif;
 }
 
 .button{
-    border-radius: 100px;
+    border-radius: 1.2rem;
     width: 100px;
     height: 40px;
     background-color: black;
     color: white;
     margin-top: 30px;
     margin-left: 42vh;
+    border: none;
 }
 
 .button-text{
@@ -315,6 +349,7 @@ font-family: 'Playfair Display', serif;
     margin-right: 20vh;
     font-size: 0.7rem;
     text-align: center;
+    line-height: 1.4rem;
 }
 
 .icons{
