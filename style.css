@@ -297,8 +297,8 @@ header{
 
 .subscribe{
     display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
+    /* flex-wrap: wrap; */
+    /* flex-grow: 1; */
     font-style: italic;
 }
 .subscribe-form{
