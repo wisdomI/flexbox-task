@@ -230,10 +230,12 @@ header{
 }
 
 .spring-collection-section h1{
-    padding: 5vh 50vh 5vh 55vh;
+    /* padding: 5vh 50vh 5vh 55vh; */
     color: white;
     font-style: italic;
-    font-size: 5rem;
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 0.5em;
 }
 
 .spring-images{
